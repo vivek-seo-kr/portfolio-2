@@ -280,40 +280,8 @@
         </section>
 
         <!-- AI Tool Section -->
-        <section id="ai-tool" class="py-24 relative overflow-hidden reveal-on-scroll">
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-blue-600/5 blur-[120px] pointer-events-none"></div>
-            
-            <div class="container mx-auto px-6 relative z-10">
-                <div class="max-w-5xl mx-auto">
-                    <div class="glass rounded-[2rem] p-8 md:p-16 border-2 border-blue-500/20 shadow-2xl shadow-blue-500/10">
-                        <div class="text-center mb-12">
-                            <h2 class="text-4xl md:text-5xl font-black mb-4">Get a <span class="gradient-text">Instant SEO Strategy</span></h2>
-                            <p class="text-slate-400 text-lg max-w-xl mx-auto">
-                                Powered by Gemini AI, get a custom high-level roadmap for your business niche in seconds.
-                            </p>
-                        </div>
-
-                        <form id="ai-form" class="grid md:grid-cols-2 gap-6 mb-12">
-                            <div class="space-y-2">
-                                <label class="text-sm font-semibold text-slate-300 ml-1">Your Industry/Niche</label>
-                                <input id="ai-niche" type="text" placeholder="e.g. SaaS for HR, Local Bakery, Crypto App" class="w-full bg-slate-950/50 border border-slate-700 rounded-xl px-6 py-4 focus:ring-2 focus:ring-blue-500 outline-none transition-all" required>
-                            </div>
-                            <div class="space-y-2">
-                                <label class="text-sm font-semibold text-slate-300 ml-1">Website URL (Optional)</label>
-                                <input id="ai-url" type="url" placeholder="https://yourwebsite.com" class="w-full bg-slate-950/50 border border-slate-700 rounded-xl px-6 py-4 focus:ring-2 focus:ring-blue-500 outline-none transition-all">
-                            </div>
-                            <button type="submit" id="ai-submit" class="md:col-span-2 py-4 bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white rounded-xl font-bold text-lg transition-all flex items-center justify-center gap-3 shadow-xl shadow-blue-500/20">
-                                ✨ Generate My Custom SEO Strategy
-                            </button>
+                        <form id="ai-form" 
                         </form>
-
-                        <div id="ai-result" class="hidden animate-in fade-in slide-in-from-bottom-4 duration-700 space-y-8 bg-slate-950/40 p-8 rounded-2xl border border-blue-500/10">
-                            <!-- Result will be injected here -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Tools Section -->
         <section id="tools" class="py-24 bg-slate-950 relative reveal-on-scroll">
@@ -371,10 +339,7 @@
                                 <span class="w-12 h-12 glass rounded-full flex items-center justify-center text-blue-400 flex-shrink-0">📄</span>
                                 Download Resume
                             </button>
-                            <button onclick="downloadPortfolio()" class="flex items-center gap-4 text-lg md:text-xl font-semibold hover:text-emerald-400 transition-colors text-left">
-                                <span class="w-12 h-12 glass rounded-full flex items-center justify-center text-emerald-400 flex-shrink-0">💾</span>
-                                Download Portfolio HTML
-                            </button>
+                            
                             <div class="flex items-center gap-4 text-lg md:text-xl font-semibold">
                                 <span class="w-12 h-12 glass rounded-full flex items-center justify-center text-blue-400 flex-shrink-0">📍</span>
                                 Remote / Worldwide
